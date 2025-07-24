@@ -97,6 +97,8 @@
         <div class="absolute inset-0 bg-black opacity-[.4] z-0"></div>
     </section>
 
+
+
     <!-- About -->
     <section id="about" class="bg-neutral-100 py-20 px-6 bg-white">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -120,84 +122,97 @@
         </div>
     </section>
 
-    <!-- Shop -->
-    <section id="shop" class="py-20 px-6">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-12">Shop the Collection</h2>
-            <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-2">
-                <!-- Product Card -->
-                <div class="bg-white rounded shadow hover:shadow-lg transition p-6 flex flex-col">
-                    <img src="pot1.jpg" alt="Speckled Clay Mug" class="rounded mb-4" />
-                    <div class="flex justify-between items-center">
-                        <h3 class="text-lg font-semibold">Speckled Clay Mug</h3>
-                        <p class="text-[#42574F] font-medium">$28</p>
-                    </div>
-                    <p class="text-sm text-gray-500 mt-2 flex-grow">
-                        Cozy, earthy mug perfect for coffee or tea. Slight variations make each piece truly one of a
-                        kind.
-                    </p>
-                    <span
-                        class="mt-4 inline-block text-white bg-gray-400 py-2 px-4 rounded text-center cursor-not-allowed opacity-70">
-                        Coming Soon
-                    </span>
+    <!-- Gallery Section with Tailwind -->
+    <div class="px-4 sm:px-8 md:px-[8vw] py-12 md:py-24 bg-[#faf9f6]">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 md:mb-16 tracking-wide">Gallery</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-10 py-6 md:py-10">
+            <!-- Example gallery item with hover overlay -->
+            <div
+                class="col-span-2 aspect-square bg-white rounded-2xl shadow-lg flex flex-col items-center overflow-hidden group relative">
+                <img src="copper-pot-01.jpeg" alt="Copper Glaze Bowl"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span class="text-white max-w-4/5 text-lg font-medium px-6 text-center">A rustic bowl with a unique
+                        copper
+                        glaze, perfect for serving or display.</span>
                 </div>
-
-                <div class="bg-white rounded shadow hover:shadow-lg transition p-6 flex flex-col">
-                    <img src="pot2.jpg" alt="Rustic Bowl Set" class="rounded mb-4" />
-                    <div class="flex justify-between items-center">
-                        <h3 class="text-lg font-semibold">Rustic Bowl Set</h3>
-                        <p class="text-[#42574F] font-medium">$45</p>
-                    </div>
-                    <p class="text-sm text-gray-500 mt-2 flex-grow">
-                        A 3-piece bowl set with warm, rustic glazes. Great for snacks, salads, or table display.
-                    </p>
-                    <span
-                        class="mt-4 inline-block text-white bg-gray-400 py-2 px-4 rounded text-center cursor-not-allowed opacity-70">
-                        Coming Soon
-                    </span>
+                <div
+                    class="text-center text-lg text-gray-700 py-4 w-full flex items-center justify-center font-medium tracking-wide">
+                    Copper Glaze Bowl</div>
+            </div>
+            <div
+                class="col-span-2 aspect-square bg-white rounded-2xl shadow-lg flex flex-col items-center overflow-hidden group relative">
+                <img src="pot1.jpg" alt="Earthy Textured Vase"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span class="text-white max-w-4/5 text-lg font-medium px-6 text-center">Hand-thrown vase with earthy
+                        textures
+                        and warm tones, inspired by nature.</span>
                 </div>
-
-
-
-                <div class="bg-white rounded shadow hover:shadow-lg transition p-6 flex flex-col">
-                    <img src="pot3.jpg" alt="Textured Vase" class="rounded mb-4" />
-                    <div class="flex justify-between items-center">
-                        <h3 class="text-lg font-semibold">Textured Vase</h3>
-                        <p class="text-[#42574F] font-medium">$32</p>
-                    </div>
-                    <p class="text-sm text-gray-500 mt-2 flex-grow">
-                        Hand-built vase with deep textures. Perfect centerpiece for dried or fresh flowers.
-                    </p>
-                    <span
-                        class="mt-4 inline-block text-white bg-gray-400 py-2 px-4 rounded text-center cursor-not-allowed opacity-70">
-                        Coming Soon
-                    </span>
+                <div
+                    class="text-center text-lg text-gray-700 py-4 w-full flex items-center justify-center font-medium tracking-wide">
+                    Earthy Textured Vase</div>
+            </div>
+            <div
+                class="aspect-square bg-white rounded-2xl shadow-lg flex flex-col items-center overflow-hidden group relative">
+                <img src="pot2.jpg" alt="Minimalist White Bowl"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span class="text-white text-lg font-medium px-6 text-center">A minimalist bowl with a soft matte
+                        white glaze, ideal for everyday use.</span>
                 </div>
-
-
-
-                <div class="bg-white rounded shadow hover:shadow-lg transition p-6 flex flex-col">
-                    <img src="pot4.jpg" alt="Midnight Ash Bowl
-                    " class="rounded mb-4" />
-                    <div class="flex justify-between items-center">
-                        <h3 class="text-lg font-semibold">Midnight Ash Bowl</h3>
-                        <p class="text-[#42574F] font-medium">$36</p>
-                    </div>
-                    <p class="text-sm text-gray-500 mt-2 flex-grow">
-                        A handmade stoneware bowl with a deep, speckled black glaze and earthy raw foot. Perfect for
-                        rice, soups, or display.
-                    </p>
-                    <span
-                        class="mt-4 inline-block text-white bg-gray-400 py-2 px-4 rounded text-center cursor-not-allowed opacity-70">
-                        Coming Soon
-                    </span>
+                <div
+                    class="text-center text-lg text-gray-700 py-4 w-full flex items-center justify-center font-medium tracking-wide">
+                    Minimalist White Bowl</div>
+            </div>
+            <div
+                class="aspect-square bg-white rounded-2xl shadow-lg flex flex-col items-center overflow-hidden group relative">
+                <img src="pot3.jpg" alt="Hand-painted Mug"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span class="text-white text-lg font-medium px-6 text-center">A one-of-a-kind mug, hand-painted with
+                        abstract designs.</span>
                 </div>
+                <div
+                    class="text-center text-lg text-gray-700 py-4 w-full flex items-center justify-center font-medium tracking-wide">
+                    Hand-painted Mug</div>
+            </div>
+            <div
+                class="aspect-square bg-white rounded-2xl shadow-lg flex flex-col items-center overflow-hidden group relative">
+                <img src="copper-pot-02.jpeg" alt="Celadon Tumblers Set"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span class="text-white text-lg font-medium px-6 text-center">Set of three celadon tumblers, glazed
+                        in soft green and white.</span>
+                </div>
+                <div
+                    class="text-center text-lg text-gray-700 py-4 w-full flex items-center justify-center font-medium tracking-wide">
+                    Celadon Tumblers Set</div>
+            </div>
+            <div
+                class="aspect-square bg-white rounded-2xl shadow-lg flex flex-col items-center overflow-hidden group relative">
+                <img src="pot4.jpg" alt="Organic Form Planter"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span class="text-white text-lg font-medium px-6 text-center">Planter with an organic silhouette,
+                        perfect for succulents or small plants.</span>
+                </div>
+                <div
+                    class="text-center text-lg text-gray-700 py-4 w-full flex items-center justify-center font-medium tracking-wide">
+                    Organic Form Planter</div>
             </div>
         </div>
-    </section>
+    </div>
+
 
     <!-- Studio In Action -->
-    <section id="studio" class="bg-white py-20 px-6">
+    <section id="studio" class="hidden py-20 px-6">
         <div class="max-w-5xl mx-auto">
             <h2 class="text-3xl font-bold text-center mb-8">In the Studio</h2>
             <div class="flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
