@@ -1,0 +1,75 @@
+<!-- Shop -->
+<section id="shop" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">Shop the Collection</h2>
+        <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-2">
+            <!-- Product Card -->
+            <div class="bg-white rounded shadow hover:shadow-lg transition p-6 flex flex-col">
+                <img src="pot1.jpg" alt="Speckled Clay Mug" class="rounded mb-4" />
+                <div class="flex justify-between items-center">
+                    <h3 class="text-lg font-semibold">Speckled Clay Mug</h3>
+                    <p class="text-[#42574F] font-medium">$28</p>
+                </div>
+                <p class="text-sm text-gray-500 mt-2 flex-grow">
+                    Cozy, earthy mug perfect for coffee or tea. Slight variations make each piece truly one of a
+                    kind.
+                </p>
+                <span
+                    class="mt-4 inline-block text-white bg-gray-400 py-2 px-4 rounded text-center cursor-not-allowed opacity-70">
+                    Coming Soon
+                </span>
+            </div>
+
+            <div class="bg-white rounded shadow hover:shadow-lg transition p-6 flex flex-col">
+                <img src="pot2.jpg" alt="Rustic Bowl Set" class="rounded mb-4" />
+                <div class="flex justify-between items-center">
+                    <h3 class="text-lg font-semibold">Rustic Bowl Set</h3>
+                    <p class="text-[#42574F] font-medium">$45</p>
+                </div>
+                <p class="text-sm text-gray-500 mt-2 flex-grow">
+                    A 3-piece bowl set with warm, rustic glazes. Great for snacks, salads, or table display.
+                </p>
+                <span
+                    class="mt-4 inline-block text-white bg-gray-400 py-2 px-4 rounded text-center cursor-not-allowed opacity-70">
+                    Coming Soon
+                </span>
+            </div>
+
+
+
+            <div class="bg-white rounded shadow hover:shadow-lg transition p-6 flex flex-col">
+                <img src="pot3.jpg" alt="Textured Vase" class="rounded mb-4" />
+                <div class="flex justify-between items-center">
+                    <h3 class="text-lg font-semibold">Textured Vase</h3>
+                    <p class="text-[#42574F] font-medium">$32</p>
+                </div>
+                <p class="text-sm text-gray-500 mt-2 flex-grow">
+                    Hand-built vase with deep textures. Perfect centerpiece for dried or fresh flowers.
+                </p>
+                <span
+                    class="mt-4 inline-block text-white bg-gray-400 py-2 px-4 rounded text-center cursor-not-allowed opacity-70">
+                    Coming Soon
+                </span>
+            </div>
+
+
+
+            <div class="bg-white rounded shadow hover:shadow-lg transition p-6 flex flex-col">
+                <img src="pot4.jpg" alt="Midnight Ash Bowl
+                    " class="rounded mb-4" />
+                <div class="flex justify-between items-center">
+                    <h3 class="text-lg font-semibold">Midnight Ash Bowl</h3>
+                    <p class="text-[#42574F] font-medium">$36</p>
+                </div>
+                <p class="text-sm text-gray-500 mt-2 flex-grow">
+                    A handmade stoneware bowl with a deep, speckled black glaze and earthy raw foot. Perfect for
+                    rice, soups, or display.
+                </p>
+                <span
+                    class="mt-4 inline-block text-white bg-gray-400 py-2 px-4 rounded text-center cursor-not-allowed opacity-70">
+                    Coming Soon
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
